@@ -22,7 +22,7 @@ msgid ""
 "Sonerezh is already installed. Remove or rename app/Config/database.php to "
 "run the installation again."
 msgstr ""
-"Sonerezh est déjà installé. Supprimez ou renommez app/Config/database.php "
+"Sonerezh est déjà installée. Supprimez ou renommez app/Config/database.php "
 "pour recommencer l'installation."
 
 #: app/Controller/InstallersController.php:77
@@ -39,11 +39,11 @@ msgstr "Les mots de passe ne correspondent pas."
 
 #: app/Controller/InstallersController.php:119
 msgid "Installation successful!"
-msgstr "Installation réussie!"
+msgstr "Installation réussie !"
 
 #: app/Controller/InstallersController.php:121
 msgid "Unable to save your data."
-msgstr "Sauvegarde de vos données impossible."
+msgstr "Impossible de sauvegarder vos données."
 
 #: app/Controller/PlaylistMembershipsController.php:22;32
 msgid "You must specify a valid playlist"
@@ -51,19 +51,19 @@ msgstr "Vous devez spécifier une liste de lecture valide"
 
 #: app/Controller/PlaylistMembershipsController.php:72
 msgid "Song successfully added to playlist"
-msgstr "Musique ajoutée à la liste de lecture"
+msgstr "Piste ajoutée à la liste de lecture"
 
 #: app/Controller/PlaylistMembershipsController.php:74
 msgid "Unable to add the song"
-msgstr "Impossible d'ajouter la musique"
+msgstr "Impossible d'ajouter la piste"
 
 #: app/Controller/PlaylistMembershipsController.php:92
 msgid "Song successfully removed from playlist"
-msgstr "Musique supprimée de la liste de lecture"
+msgstr "Piste supprimée de la liste de lecture"
 
 #: app/Controller/PlaylistsController.php:64
 msgid "Playlist successfully created!"
-msgstr "Liste de lecture crée avec succès!"
+msgstr "Liste de lecture créée avec succès !"
 
 #: app/Controller/PlaylistsController.php:66
 msgid "Unable to create the playlist."
@@ -95,11 +95,11 @@ msgstr "Préférences enregistrées !"
 
 #: app/Controller/SettingsController.php:27
 msgid "Unable to save settings!"
-msgstr "Impossible d'enregistrer les préférences!"
+msgstr "Impossible d'enregistrer les préférences !"
 
 #: app/Controller/SettingsController.php:92
 msgid "Cache cleared!"
-msgstr "Cache nettoyé!"
+msgstr "Cache nettoyé !"
 
 #: app/Controller/SettingsController.php:125
 msgid "All entries have been deleted !"
@@ -107,15 +107,15 @@ msgstr "Toutes les entrées ont été supprimées !"
 
 #: app/Controller/SettingsController.php:128
 msgid "Unable to clean the database!"
-msgstr "Impossible de nettoyer la base de donnée!"
+msgstr "Impossible de nettoyer la base de donnée !"
 
 #: app/Controller/SongsController.php:130
 msgid "Please define a root path."
-msgstr "Veuillez renseigner le chemin racine."
+msgstr "Veuillez renseigner l'emplacement de la librairie."
 
 #: app/Controller/SongsController.php:168;272;293;383
 msgid "Oops!"
-msgstr "Oups!"
+msgstr "Oups !"
 
 #: app/Controller/SongsController.php:168;272;293
 msgid "The database is empty..."
@@ -127,7 +127,7 @@ msgstr "Pas de résultat."
 
 #: app/Controller/UsersController.php:47
 msgid "A new user has been created!"
-msgstr "Un nouvel utilisateur a été créé!"
+msgstr "Un nouvel utilisateur a été créé !"
 
 #: app/Controller/UsersController.php:49
 msgid ""
@@ -147,15 +147,15 @@ msgstr "Utilisateur "
 
 #: app/Controller/UsersController.php:70;113
 msgid "Something went wrong!"
-msgstr "Une erreur est survenue!"
+msgstr "Une erreur est survenue !"
 
 #: app/Controller/UsersController.php:109
 msgid "Avatar has been successfully removed!"
-msgstr "Avatar supprimé avec succès!"
+msgstr "Avatar supprimé avec succès !"
 
 #: app/Controller/UsersController.php:125
 msgid "Wrong credentials!"
-msgstr "Mauvaises qualifications!"
+msgstr "Identifiants incorrects !"
 
 #: app/Lib/Event/UsersEventListener.php:19
 msgid "Welcome on Sonerezh !"
@@ -165,7 +165,7 @@ msgstr "Bienvenue sur Sonerezh !"
 #: app/View/Layouts/default.ctp:24
 #: app/View/Playlists/index.ctp:103
 msgid "Play"
-msgstr "Lecture"
+msgstr "Lire"
 
 #: app/View/Elements/add_menu.ctp:1
 #: app/View/Layouts/default.ctp:24
@@ -182,14 +182,14 @@ msgstr "Ajouter à la liste de lecture"
 #: app/View/Playlists/index.ctp:69
 #: app/View/Songs/album.ctp:12
 msgid "Play Next"
-msgstr "Suivant\n"
+msgstr "Lire après\n"
 
 #: app/View/Elements/add_menu.ctp:4
 #: app/View/Elements/artists_view.ctp:26;66
 #: app/View/Playlists/index.ctp:70
 #: app/View/Songs/album.ctp:13
 msgid "Add to Up Next"
-msgstr "Ajouter à la liste d'attente"
+msgstr "Ajouter à la file d'attente"
 
 #: app/View/Elements/add_menu.ctp:5
 #: app/View/Elements/add_to_playlist.ctp:37
@@ -275,8 +275,8 @@ msgstr[1] "%s Albums"
 #, c-format
 msgid "%s Song"
 msgid_plural "%s Songs"
-msgstr[0] "%s Musique"
-msgstr[1] "%s Musiques"
+msgstr[0] "%s Piste"
+msgstr[1] "%s Pistes"
 
 #: app/View/Installers/index.ctp:3
 msgid "Sonerezh"
@@ -288,7 +288,7 @@ msgid ""
 "below and you'll be on your way to listening to your favorite songs!"
 msgstr ""
 "Bienvenue sur la page d'installation de Sonerezh. Remplissez juste les "
-"information ci-dessous et vous pourrez écouter vos musiques préférées!"
+"information ci-dessous et vous pourrez écouter vos musiques préférées !"
 
 #: app/View/Installers/index.ctp:9
 msgid "Requirements"
@@ -296,7 +296,7 @@ msgstr "Prérequis"
 
 #: app/View/Installers/index.ctp:14
 msgid "PHP GD is installed!"
-msgstr "PHP GD est installé!"
+msgstr "PHP GD est installé !"
 
 #: app/View/Installers/index.ctp:18
 msgid "PHP GD is missing."
@@ -304,7 +304,7 @@ msgstr "PHP GD n'est pas installé."
 
 #: app/View/Installers/index.ctp:25
 msgid "libav-tools (avconv) is installed!"
-msgstr "libav-tools (avconv) est installé!"
+msgstr "libav-tools (avconv) est installé !"
 
 #: app/View/Installers/index.ctp:29
 msgid ""
@@ -316,19 +316,19 @@ msgstr ""
 
 #: app/View/Installers/index.ctp:36
 msgid "I can write the configuration in "
-msgstr "Ecrire du fichier de configuration possible dans "
+msgstr "Droits d'écritures sur "
 
 #: app/View/Installers/index.ctp:40
 msgid "I cannot write the configuration in "
-msgstr "Ecriture du fichier de configuration impossible dans \n"
+msgstr "Droits d'écritures insuffisants sur \n"
 
 #: app/View/Installers/index.ctp:47
 msgid "I can write in the core configuration file ("
-msgstr "Ecriture possible du fichier de configuration du noyau ("
+msgstr "Droits d'écriture sur core.php ("
 
 #: app/View/Installers/index.ctp:51
 msgid "I cannot write in the core configuration file ("
-msgstr "Ecriture du fichier de configuration du noyau impossible ("
+msgstr "Droits d'écriture insuffisants sur core.php ("
 
 #: app/View/Installers/index.ctp:55
 msgid "Database configuration"
@@ -403,20 +403,20 @@ msgstr "Prérequis manquants"
 
 #: app/View/Layouts/default.ctp:24
 msgid "Remove from queue"
-msgstr "Supprimer de la liste d'attente"
+msgstr "Supprimer de la file d'attente"
 
 #: app/View/Layouts/default.ctp:100
 msgid "Queue is empty."
-msgstr "La liste d'attente est vide.\n"
+msgstr "La file d'attente est vide.\n"
 
 #: app/View/Layouts/default.ctp:104
 msgid "Queue"
-msgstr "Liste d'attente"
+msgstr "File d'attente"
 
 #: app/View/Layouts/default.ctp:104
 #: app/View/Settings/index.ctp:117
 msgid "Songs"
-msgstr "Musiques"
+msgstr "Pistes"
 
 #: app/View/Playlists/index.ctp:34
 msgid "Rename"
@@ -425,7 +425,7 @@ msgstr "Renommer"
 #: app/View/Playlists/index.ctp:42
 #: app/View/Users/index.ctp:57
 msgid "Are you sure ?"
-msgstr "Etes vous sûr ?"
+msgstr "Etes-vous sûr ?"
 
 #: app/View/Playlists/index.ctp:52
 msgid "You don't have playlists yet."
@@ -438,7 +438,7 @@ msgstr "Cette liste de lecture est vide :("
 #: app/View/Playlists/index.ctp:86
 #: app/View/Songs/index.ctp:7
 msgid "Song Title"
-msgstr "Titre de la musique"
+msgstr "Titre de la piste"
 
 #: app/View/Playlists/index.ctp:87
 #: app/View/Songs/index.ctp:8
@@ -461,7 +461,7 @@ msgstr "Supprimer"
 
 #: app/View/Playlists/index.ctp:108
 msgid "from the playlist?"
-msgstr "de la liste de lecture?"
+msgstr "de la liste de lecture ?"
 
 #: app/View/Playlists/index.ctp:127
 msgid "Create a playlist"
@@ -494,7 +494,7 @@ msgstr "Préférences de Sonerezh"
 
 #: app/View/Settings/index.ctp:21
 msgid "Music root directory"
-msgstr "Racine du répertoire de musiques"
+msgstr "Emplacement de la librairie"
 
 #: app/View/Settings/index.ctp:23
 msgid "Make sure Sonerezh can read this folder recursively."
@@ -502,13 +502,13 @@ msgstr "Assurez-vous que Sonerezh puisse lire ce dossier récursivement."
 
 #: app/View/Settings/index.ctp:26
 msgid "Automatic tracks conversion"
-msgstr "Conversion de morceaux automatique"
+msgstr "Conversion automatique des pistes"
 
 #: app/View/Settings/index.ctp:31
 msgid "The command 'avconv' is not available. Sonerezh cannot convert your tracks."
 msgstr ""
 "La commande 'avconv' n'est pas disponible. Sonerezh ne pourra pas convertir "
-"vos morceaux."
+"vos pistes."
 
 #: app/View/Settings/index.ctp:36
 msgid ""
@@ -517,10 +517,10 @@ msgid ""
 "OGG/Vorbis before being played. The converted songs will be stored in the "
 "\"Songs Cache\"."
 msgstr ""
-"Si vous avez différents formats dans votre collection et que votre "
-"navigateur ne peut pas tous les lire, Sonerezh peut convertir vos morceaux "
-"en MP3 ou OGG/Vorbis avant de les lire. Les morceaux convertis seront "
-"stockés dans le \"Cache des musiques\".\n"
+"Si vous avez différents formats dans votre collection et parce que votre "
+"navigateur ne peut pas tous les lire, Sonerezh peut convertir vos pistes "
+"en MP3 ou OGG/Vorbis avant de les diffuser. Les morceaux convertis seront "
+"stockés dans le \"Cache audio\".\n"
 
 #: app/View/Settings/index.ctp:41
 msgid "Source format"
@@ -554,7 +554,7 @@ msgstr "Réinitialiser la base"
 
 #: app/View/Settings/index.ctp:76
 msgid "Are you sure? All your songs and playlists will disappear!"
-msgstr "Etes-vous sûr? Toutes vos musiques et vos listes de lecture disparaîtront!\n"
+msgstr "Etes-vous sûr ? Toutes vos pistes et vos listes de lecture disparaîtront!\n"
 
 #: app/View/Settings/index.ctp:83
 msgid "Support Sonerezh!"
@@ -562,7 +562,7 @@ msgstr "Soutenir Sonerezh!"
 
 #: app/View/Settings/index.ctp:85
 msgid "Help us to provide you the best music player! Make a donation."
-msgstr "Aidez-nous à vous fournir le meilleur lecteur de musique! Faites un don."
+msgstr "Aidez-nous à vous fournir le meilleur lecteur de musique ! Faites un don."
 
 #: app/View/Settings/index.ctp:104
 msgid "Sonerezh statistics"
@@ -574,7 +574,7 @@ msgstr "Cache des miniatures"
 
 #: app/View/Settings/index.ctp:125
 msgid "Songs cache"
-msgstr "Cache des musiques"
+msgstr "Cache audio"
 
 #: app/View/Songs/import.ctp:33
 msgid ""
@@ -611,7 +611,7 @@ msgstr "Entrer une adresse email"
 msgid "We also use email for avatar detection if no avatar is uploaded."
 msgstr ""
 "L'adresse email est aussi utilisée pour la détection d'avatar si aucun "
-"avatar n'est téléversé."
+"avatar n'est envoyé."
 
 #: app/View/Users/edit.ctp:29
 #: app/View/Users/index.ctp:83
@@ -634,11 +634,11 @@ msgstr "Supprimer l'avatar"
 
 #: app/View/Users/edit.ctp:59
 msgid "You avatar will be removed, are you sure?"
-msgstr "Votre avatar sera supprimé, êtes vous sûr?"
+msgstr "Votre avatar sera supprimé, êtes vous sûr ?"
 
 #: app/View/Users/edit.ctp:66
 msgid "You can upload an avatar here or change it at "
-msgstr "Vous pouvez téléverser un avatar ici ou le modifier à "
+msgstr "Vous pouvez envoyer un avatar ici ou le modifier à "
 
 #: app/View/Users/edit.ctp:73
 msgid "Save Changes"
@@ -682,7 +682,7 @@ msgstr "Se souvenir de moi"
 
 #: app/View/Users/login.ctp:13
 msgid "Forgot Password?"
-msgstr "Mot de passe oublié?"
+msgstr "Mot de passe oublié ?"
 
 #: app/View/Users/login.ctp:20
 msgid "Sign In"
