@@ -204,7 +204,7 @@ class SongsController extends AppController{
      * The artists view function.
      * Generate a list of 5 bands, in alphabetical order. This list is then read to find all the songs of each band, grouped by album and disc.
      */
-    public function artists(){
+    public function artists() {
         $this->loadModel('Playlist');
         $this->Playlist->recursive = 0;
         $playlists = $this->Playlist->find('list', array(
@@ -212,13 +212,20 @@ class SongsController extends AppController{
             'conditions'    => array('user_id' => AuthComponent::user('id'))
         ));
 
+        $conditions = array();
+
+        if (isset($this->request->query['l']) && in_array($this->request->query['l'], range('A', 'Z'))) {
+            $conditions['Song.band LIKE'] = $this->request->query['l'].'%';
+        }
+
         // Getting 5 band names.
         $this->Paginator->settings = array(
             'Song' => array(
-                'limit'     => 5,
-                'fields'    => array('Song.band'),
-                'order'     => $this->Song->order,
-                'group'     => array('Song.band')
+                'limit'         => 5,
+                'fields'        => array('Song.band'),
+                'order'         => $this->Song->order,
+                'group'         => array('Song.band'),
+                'conditions'    => $conditions
             )
         );
 
