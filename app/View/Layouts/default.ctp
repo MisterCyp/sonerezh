@@ -48,23 +48,8 @@
 <!-- Player -->
 <div class="navbar navbar-default navbar-fixed-top navbar-player">
     <div class="container">
-        <!-- Play/Pause buttons -->
-        <div class="col-md-2 col-xs-2">
-            <ul class="player-controls">
-                <li><span class="glyphicon glyphicon-backward" id="backward"></span></li>
-                <li class="play"><span class="glyphicon glyphicon-play" id="play"></span></li>
-                <li><span class="glyphicon glyphicon-forward" id="forward"></span></li>
-            </ul>
-        </div>
-        <!-- Volume control -->
-        <div class="col-md-2 hidden-xs hidden-sm">
-            <ul class="player-controls volume">
-                <li class="volumeicon"><span class="glyphicon glyphicon-volume-up" id="mute"></span></li>
-                <li class="volumebar"><div id="volume"></div></li>
-            </ul>
-        </div>
-        <!-- Current playing -->
-        <div class="col-md-6 col-xs-8">
+	<!-- Current playing -->
+        <div class="col-md-6 col-xs-12">
             <?= $this->Html->image("no-cover.png", array('class' => "song-cover")); ?>
             <div class="song-infos truncated-name">
                 <span class="song-name"></span>
@@ -77,12 +62,27 @@
                 <li><span class="badge badge-timer totalTime"></span></li>
             </ul>
         </div>
-        <!-- Playlist management -->
-        <div class="col-md-2 col-xs-2">
+        <!-- Play/Pause buttons -->
+        <div class="col-md-2 col-xs-6">
+            <ul class="player-controls">
+                <li><span class="glyphicon glyphicon-backward" id="backward"></span></li>
+                <li class="play"><span class="glyphicon glyphicon-play" id="play"></span></li>
+                <li><span class="glyphicon glyphicon-forward" id="forward"></span></li>
+            </ul>
+        </div>
+		<!-- Playlist management -->
+        <div class="col-md-2 col-xs-6">
             <ul class="player-controls">
                 <li><span class="glyphicon glyphicon-th-list" id="queue-button"></span></li>
                 <li><span class="glyphicon glyphicon-repeat" id="queue-repeat"></span></li>
                 <li><span class="glyphicon glyphicon-random" id="queue-shuffle"></span></li>
+            </ul>
+        </div>
+        <!-- Volume control -->
+        <div class="col-md-2 hidden-xs hidden-sm">
+            <ul class="player-controls volume">
+                <li class="volumeicon"><span class="glyphicon glyphicon-volume-up" id="mute"></span></li>
+                <li class="volumebar"><div id="volume"></div></li>
             </ul>
         </div>
     </div>
@@ -120,7 +120,7 @@
 </div>
 
 <div class="container">
-    <div class="row" id="content">
+    <div class="row" id="content" style="margin-top: 90px;">
         <?php echo $this->fetch('content'); ?>
     </div>
 </div>
